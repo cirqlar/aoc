@@ -842,6 +842,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "rust03_25"
+version = "0.1.0"
+dependencies = [
+ "criterion",
+ "rayon",
+]
+
+[[package]]
 name = "rust04_22"
 version = "0.1.0"
 
