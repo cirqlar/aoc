@@ -25,7 +25,7 @@ pub fn process(input: &[u8]) -> usize {
                     .expect("A max first value");
 
                 last_top += n_pos + 1;
-                total += ((*n - 48) as usize) * 10_usize.pow(u32::try_from(pos).unwrap());
+                total += ((n - b'0') as usize) * 10_usize.pow(u32::try_from(pos).unwrap());
             }
 
             total
